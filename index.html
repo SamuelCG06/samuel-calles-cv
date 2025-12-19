@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Calles Garrido | Portafoli DAM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">&lt;SCG /&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inici</a></li>
+            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#proyectos">Projectes</a></li>
+            <li><a href="#videocv">VideoCV</a></li> <li><a href="#blog">Informació</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-background-elements">
+            <div class="tech-grid"></div> 
+            <div class="glow-effect"></div> 
+            <span class="floating-icon icon-1">&lt;/&gt;</span>
+            <span class="floating-icon icon-2">{ }</span>
+            <span class="floating-icon icon-3">#</span>
+            <span class="floating-icon icon-4">;</span>
+        </div>
+
+        <div class="hero-content">
+            <span class="greeting">Hola, soc</span>
+            <h1>Samuel Calles Garrido</h1>
+            <h2 class="sub-headline"> <span id="typewriter"></span><span class="cursor">|</span></h2>
+            <p>Becari IT a BASF i estudiant de DAM. Especialitzat en PowerApps, ServiceNow i suport tècnic.</p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn primary">Veure Projectes</a>
+                <a href="#videocv" class="btn secondary">Veure VideoCV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="container">
+        <h2 class="section-title">Sobre mi</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <h3>Perfil Professional</h3>
+                <p>Estudiant del Cicle Formatiu de Grau Superior en <strong>Desenvolupament d'Aplicacions Multiplataforma (DAM)</strong> i <strong>Becari IT a BASF Española</strong>.</p>
+                <p>Col·laboro en el desenvolupament d'aplicacions internes i en l'atenció a usuaris, configurant dispositius i resolent incidències. Em caracteritzo per la meva adaptació, ganes d'aprendre i motivació per créixer professionalment dins del món IT.</p>
+                <div class="skills-container">
+                    <h4>Habilitats Tècniques</h4>
+                    <div class="tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">PowerApps</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">ServiceNow</span>
+                        <span class="tag">Visual Studio Code</span>
+                    </div>
+                </div>
+            </div>
+            <div class="resume-box">
+                <h3><i class="fas fa-briefcase"></i> Experiència</h3>
+                <div class="timeline-item">
+                    <h4>Becari IT</h4>
+                    <span class="date">BASF Española, Tarragona</span>
+                    <ul class="job-tasks">
+                        <li>Desenvolupament d'Apps internes (PowerApps).</li>
+                        <li>Suport IT presencial i gestió de tiquets.</li>
+                        <li>Configuració i lliurament d'equips.</li>
+                    </ul>
+                </div>
+                <h3 style="margin-top: 30px;"><i class="fas fa-graduation-cap"></i> Formación</h3>
+                <div class="timeline-item">
+                    <h4>CFGS DAM</h4>
+                    <span class="date">Institut Vidal i Barraquer (2024 - Actualitat)</span>
+                </div>
+                <div class="timeline-item">
+                    <h4>Batxillerat</h4>
+                    <span class="date">Institut Collblanc (2022-2024)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="container section-dark-contrast">
+        <h2 class="section-title">Projectes Destacats</h2>
+        <p class="section-subtitle">Els meus treballs personals i acadèmics.</p>
+
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-image-placeholder">
+                    <img src="foto1.png" alt="Gestió d'Incidències">
+                </div>
+                <div class="project-info">
+                    <h3>Gestió d'Incidències</h3>
+                    <p>Aplicació d'escriptori Java per a la gestió de tiquets simulant un entorn real d'empresa.</p>
+                    <div class="tech-stack-mini"><span>Java</span><span>MySQL</span></div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image-placeholder">
+                    <img src="foto2.png" alt="App PowerApps BASF">
+                </div>
+                <div class="project-info">
+                    <h3>App PowerApps BASF</h3>
+                    <p>Optimització de processos interns mitjançant l'ús de la Power Platform.</p>
+                    <div class="tech-stack-mini"><span>PowerApps</span><span>Dataverse</span></div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="videocv" class="container">
+        <h2 class="section-title">Videocurrículum</h2>
+        <p class="section-subtitle">Coneix-me en menys d'un minut.</p>
+        
+        <div class="video-container-wrapper">
+            <div class="video-frame">
+                <video controls playsinline>
+                    <source src="videocv.mp4" type="video/mp4">
+                    El teu navegador no suporta l'etiqueta de vídeo.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="bg-darker container">
+        <h2 class="section-title">Informació i Recursos</h2>
+        <div class="blog-grid">
+            <article class="blog-post">
+                <div class="post-header"><span class="category">Tecnologia</span><span class="date">Actualitat</span></div>
+                <h3>L'impacte del Low-Code a l'empresa</h3>
+                <p>La implementació d'eines Low-Code com PowerApps està transformant la manera com les multinacionals gestionen el desenvolupament de programari intern. Aquesta tecnologia permet reduir dràsticament els temps de lliurament, facilitant la creació de solucions personalitzades sense necessitat de grans equips de programació.</p>
+                <a href="#" class="read-more">Llegir més &rarr;</a>
+            </article>
+            <article class="blog-post">
+                <div class="post-header"><span class="category">Metodologia</span><span class="date">Consells</span></div>
+                <h3>Estratègies de gestió en Suport IT</h3>
+                <p>En un entorn de suport tècnic d'alt volum, la priorització és fonamental per mantenir la productivitat. Utilitzant eines com ServiceNow, és vital classificar incidències crítiques mentre es manté el focus en projectes de desenvolupament a llarg termini.</p>
+                <a href="#" class="read-more">Llegir més &rarr;</a>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Samuel Calles Garrido | Desenvolupador DAM</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
